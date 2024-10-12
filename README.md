@@ -1,9 +1,11 @@
 ![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg)
 # 智慧课堂AI：AI助力课堂教学
-本项目通过调用ChatGPT模型，实现了根据个人知识库和课堂实时信息，生成课堂教学建议的功能。
+本项目为2024年浙软夏令营项目二，通过调用ChatGPT模型，实现了根据个人知识库和课堂实时信息，生成课堂教学建议的功能。
 使用streamlit搭建了一个简单的web应用，用户可以输入个人知识库、学生名单、学生回答等课堂实时信息 ，模型会根据这些信息生成课堂教学建议。
+![主页](项目二-AI助力课堂教学/项目2-大模型应用创意设计/figures/snipaste1.png)
 
 ## 使用方法
+进入 项目二-AI助力课堂教学/项目2-大模型应用创意设计 文件夹，设置好config.py里的参数（需获得Chatgpt API和可远程连接的MySQL数据库），然后按以下步骤运行代码，
 1. 安装依赖
 ```bash
 pip install -r requirements.txt
